@@ -2,38 +2,43 @@
 - React 
 ![pass](https://github.com/user-attachments/assets/71f0eff3-d8f0-4d22-af6a-f6bc88f63b5d)
 
-🎨 Styling:
+# Password Manager Project
+
+## 🛠️ Tech Stack
+
+### 🔹 Frontend
+- React.js (v18)
+- React Hooks (useState, useEffect, useRef)
 - Tailwind CSS
 - PostCSS
 - Autoprefixer
 - Custom CSS (`App.css`)
-
-🧪 Development Tools:
-- Vite (fast dev server and build tool)
-- ESLint (code linting)
-- React Refresh (for fast refresh)
-- Lordicon (animated icons)
-- Toastify (for toasts/notifications)
-
-📦 Utility Libraries:
-- uuid (unique IDs)
+- Vite (dev server and build tool)
+- ESLint with React plugins
 - react-toastify (notifications)
+- uuid (unique IDs)
+- Lordicon (animated icons)
 
-🧠 React Concepts:
-- useState, useEffect, useRef (Hooks)
-- Component structure: `Navbar`, `Manager`, `Footer`
-- LocalStorage for state persistence
-- Controlled form inputs
+### 🔹 Tools & Config
+- `"type": "module"` in `package.json`
+- Dev scripts: `vite`, `vite build`, `vite preview`
+- React Refresh for hot reloading
 
-📁 File Structure:
-- `/components/Navbar.jsx`
-- `/components/Manager.jsx`
-- `/components/Footer.jsx`
-- `App.jsx`
+---
 
-⚙️ Config:
-- `package.json` with dev scripts (`vite`, `vite build`, `vite preview`)
-- Project uses ES Modules (`"type": "module"`)
+## 🔐 Features
+
+- Add, edit, delete password entries (site, username, password)
+- Password visibility toggle with eye icon
+- Copy site, username, or password to clipboard with toast notification
+- Persistent storage using browser LocalStorage
+- User-friendly notifications with react-toastify
+- Unique IDs for password entries generated with uuid
+- Responsive UI styled with Tailwind CSS and custom CSS
+- Clean component structure: `Navbar`, `Manager`, `Footer`
+- Local state management with React Hooks
+
+---
 
 
 
